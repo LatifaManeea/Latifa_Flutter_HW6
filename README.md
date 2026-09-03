@@ -5,9 +5,9 @@ An app that gets movies from the TMDB API and shows them in a grid. When you tap
 Screenshots
 | Home | Details |
 |---|---|
-| ![Home](<img width="400" height="780" alt="Screenshot 2026-09-03 at 3 31 36 PM" src="https://github.com/user-attachments/assets/d5ce64ec-9e52-49e6-b82c-0f4adc9b89d0" />
-) | ![Details](<img width="401" height="781" alt="Screenshot 2026-09-03 at 3 31 51 PM" src="https://github.com/user-attachments/assets/a40e05a1-75c0-4ca8-97e2-fa9846790622" />
-) |
+|(<img width="400" height="780" alt="Screenshot 2026-09-03 at 3 31 36 PM" src="https://github.com/user-attachments/assets/d5ce64ec-9e52-49e6-b82c-0f4adc9b89d0" />
+) (<img width="401" height="781" alt="Screenshot 2026-09-03 at 3 31 51 PM" src="https://github.com/user-attachments/assets/a40e05a1-75c0-4ca8-97e2-fa9846790622" />
+)
 
 The API
 I used TMDB (themoviedb.org) instead of the meals one. You need to make an account and get a free API key.
