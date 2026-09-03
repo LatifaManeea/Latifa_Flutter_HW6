@@ -1,6 +1,7 @@
 Movies App - Homework 6
-
+------------------------
 An app that gets movies from the TMDB API and shows them in a grid. When you tap a movie it opens another screen with more details about it.
+
 
 Screenshots:
 -------------
@@ -9,6 +10,7 @@ Screenshots:
 
 
 The API
+---------
 I used TMDB (themoviedb.org) instead of the meals one. You need to make an account and get a free API key.
 
 I ended up using two endpoints:
@@ -23,6 +25,7 @@ One thing that confused me at the start is that poster_path is not a real link, 
 
 
 Widgets
+---------
 FutureBuilder to wait for the data and show a spinner while it loads
 GridView.builder for the 2 columns
 GestureDetector to make the tiles tappable
@@ -30,7 +33,9 @@ Image.network with an errorBuilder, some posters don't load so it shows an icon 
 Navigator.push to open the details screen, I passed the whole Movie object not just the fields
 
 Package
+---------
 Only http, installed with flutter pub add http.
 
 To run it
+------------
 Add your own TMDB key in lib/services/api.dart then flutter pub get and run.
